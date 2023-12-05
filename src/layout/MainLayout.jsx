@@ -1,7 +1,12 @@
 import React from "react";
+import Header from "../sections/header/Header";
 
 const MainLayout = () => {
-  return <></>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
 
 export default MainLayout;

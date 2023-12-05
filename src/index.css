@@ -7,6 +7,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --primary: #0e8388;
+  --secondary: #2e4f4f;
+  --headingColor: #2d3340;
+  --paragraphColor: #181818;
+}
 ul,
 ol {
   list-style-type: none;
@@ -27,3 +33,25 @@ p {
   width: 1250px;
   margin: 0 auto;
 }
+
+/* ====== Common Btn Design Start ====== */
+.common_btn {
+  background-color: var(--primary);
+  padding: 10px 25px;
+  border: 1px solid var(--primary);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  transition: all linear 0.3s;
+  cursor: pointer;
+}
+.common_btn:hover {
+  background-color: #fff;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+/* ====== Common Btn Design End ====== */

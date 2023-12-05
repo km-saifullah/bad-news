@@ -1,0 +1,16 @@
+/* ====== Header Design Start ====== */
+.header {
+  padding: 10px 0;
+  background-color: var(--paragraphColor);
+}
+.header_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_btn {
+  display: flex;
+  align-items: center;
+  column-gap: 27px;
+}
+/* ====== Header Design End ====== */
