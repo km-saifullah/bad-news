@@ -1,0 +1,19 @@
+/* ===== Footer Links Design Start ===== */
+.footer_link ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.footer_link ul li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 130%;
+  font-family: var(--robotoMono);
+  text-transform: capitalize;
+  transition: all linear 0.3s;
+}
+.footer_link ul li a:hover {
+  color: var(--primary);
+}
+/* ===== Footer Links Design End ===== */
