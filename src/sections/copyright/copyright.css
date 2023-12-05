@@ -1,0 +1,13 @@
+/* ===== Cpyright Design Start ===== */
+.copyright {
+  background-color: #1e1e1e;
+  padding: 15px 0;
+}
+.copyright p {
+  color: var(--primary);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 120%;
+  font-family: var(--robotoMono);
+}
+/* ===== Cpyright Design End ===== */
