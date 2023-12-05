@@ -1,0 +1,10 @@
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+
+colors
+-------
+heading color: #2D3340
+paragraph color: #181818
+primary color: #0E8388
+seconday colors: #2E4F4F
+
