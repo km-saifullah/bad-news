@@ -1,6 +1,7 @@
 import React from "react";
 import { IoIosSearch } from "react-icons/io";
 import "./navbar.css";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -10,19 +11,22 @@ const Navbar = () => {
           <div className="menu">
             <ul>
               <li>
-                <a href="#">Home</a>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <a href="#">category</a>
+                <NavLink to="/category">category</NavLink>
               </li>
               <li>
-                <a href="#">about</a>
+                <NavLink to="/about">about</NavLink>
               </li>
               <li>
-                <a href="#">login</a>
+                <NavLink to="/login">login</NavLink>
               </li>
               <li>
-                <a href="#">contact</a>
+                <NavLink to="/signup">signup</NavLink>
+              </li>
+              <li>
+                <NavLink to="/contact">contact</NavLink>
               </li>
             </ul>
           </div>

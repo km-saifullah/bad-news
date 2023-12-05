@@ -15,11 +15,14 @@
 .menu ul li a {
   color: var(--headingColor);
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 135%;
   text-transform: capitalize;
   font-family: var(--roboto);
   transition: all linear 0.3s;
+}
+.menu ul li a.active {
+  color: var(--primary);
 }
 .menu ul li a:hover {
   color: var(--secondary);

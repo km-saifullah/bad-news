@@ -4,9 +4,13 @@ import "./home.css";
 
 const Home = () => {
   return (
-    <>
-      <MainLayout />
-    </>
+    <section className="home">
+      <div className="container">
+        <div className="home_wrapper">
+          <h1>Hello</h1>
+        </div>
+      </div>
+    </section>
   );
 };
 
