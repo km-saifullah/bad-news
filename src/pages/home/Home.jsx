@@ -6,8 +6,6 @@ import "./home.css";
 
 const Home = () => {
   const [like, setLike] = useState(85);
-  const [likeStyle, setLikeStyle] = useState("");
-
   // Handle Like
   const handleLike = () => {
     setLike(like + 1);
@@ -35,7 +33,7 @@ const Home = () => {
                 <div className="react_icon">
                   <TiThumbsUp onClick={handleLike} />
                 </div>
-                <p className={likeStyle}>{like}</p>
+                <p>{like}</p>
               </div>
               <div className="icon_info">
                 <div className="react_icon">

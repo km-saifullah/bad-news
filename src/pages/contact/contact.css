@@ -1,0 +1,9 @@
+/* ==== Contact Design Start ===== */
+.conatct {
+  padding: 30px;
+}
+.contact_heading {
+  color: var(--headingColor);
+  font-family: var(--roboto);
+}
+/* ==== Contact Design End ===== */

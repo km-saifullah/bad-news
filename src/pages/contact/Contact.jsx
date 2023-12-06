@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section className="conatct">
       <div className="container">
-        <h1>Comming Soon</h1>
+        <h1 className="contact_heading">Page Under Development.....</h1>
       </div>
     </section>
   );

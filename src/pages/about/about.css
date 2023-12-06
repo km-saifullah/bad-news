@@ -1,0 +1,9 @@
+/* ==== About Design Start ===== */
+.about {
+  padding: 30px;
+}
+.about_heading {
+  color: var(--headingColor);
+  font-family: var(--roboto);
+}
+/* ==== About Design End ===== */
