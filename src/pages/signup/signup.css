@@ -1,0 +1,157 @@
+/* ==== Sign Up Design Start ===== */
+.login {
+  padding: 90px 0 100px 0;
+}
+.login_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.login_info {
+  width: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 21px;
+}
+.login_info h2 {
+  color: var(--headingColor);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 140%;
+  font-family: var(--roboto);
+}
+.login_status {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+.login_status p {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 140%;
+  font-family: var(--robotoMono);
+}
+.login_status a {
+  color: var(--primary);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  font-family: var(--roboto);
+}
+.social_login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  background-color: #506dab;
+  width: 460px;
+  height: 35px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  font-family: var(--robotoMono);
+  text-transform: capitalize;
+}
+.twitter {
+  background-color: #27c4fe;
+}
+.icon {
+  font-size: 20px;
+}
+.alternate {
+  padding-bottom: 15px;
+  color: var(--headingColor);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 140%;
+  font-family: var(--roboto);
+}
+.manual_login {
+  width: 460px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+.manual_login p {
+  color: var(--headingColor);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 120%;
+  font-family: var(--roboto);
+  padding: 10px 0;
+}
+.manual_login input {
+  padding: 13px 0 13px 15px;
+  width: 460px;
+  border: 1px solid var(--headingColor);
+  outline: none;
+  font-family: var(--robotoMono);
+}
+.manual_login input::placeholder {
+  color: var(--paragraphColor);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+  font-family: var(--robotoMono);
+  text-transform: capitalize;
+}
+.important_info {
+  padding-top: 15px;
+  width: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.remember_me {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+.remember_me input {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+.remember_me p,
+.forgot_pass {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+  font-family: var(--robotoMono);
+}
+.forgot_pass {
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+.forgot_pass:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+.login_btn {
+  padding: 25px 0 0 0;
+}
+.login_btn button {
+  background-color: var(--primary);
+  transition: all linear 0.3s;
+}
+.login_btn button:hover {
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  color: var(--paragraphColor);
+}
+/* ==== Sign Up Design End ===== */
